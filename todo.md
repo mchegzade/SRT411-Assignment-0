@@ -1,10 +1,18 @@
 ---
-title: "todo"
+title: "very) short introduction to R & ToDo answers"
 output: html_document
 author:
 - Mosen Chegzade
+date: "Jan 29, 2016"
 ---
 
+
+# A short introduction
+In this assignment I will be learning how to start coding in R and using R studio. I have used the pdf A [(very) short
+introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf) by 
+Paul Torfs & Claudia Brauer. In this pdf they will described the basic funcionality of R and the use of it also it gives an opportunity to learn R by  doing the ToDo's in this document.
+
+------------------
 
 # Todo 1
 ```{r}
@@ -69,9 +77,21 @@ c^2
 ```
 # Todo 12
 ```{r}
-data=strptime( c("20140706080000","20150706000000"),format="%Y%m%d%H%M%S")
+data=strptime( c("20140706080000","20165704000000"),format="%Y%m%d%H%M%S")
 data=x
 plot(x)
 ```
 # Todo 13
 This todo didn't compile 
+
+### Sources used for this assignment:
+
+[nicercode github](http://nicercode.github.io/guides/reports/)
+
+[Kbroman.org markdown](http://kbroman.org/knitr_knutshell/pages/markdown.html)
+
+[R markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+[rmarkdown Rstudio](http://rmarkdown.rstudio.com/)
+
+
